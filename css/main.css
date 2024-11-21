@@ -6101,8 +6101,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #88ba00;
+  border-color: #4d6900;
 }
 
 .btn-primary:active,
@@ -11132,7 +11132,7 @@ header.header-image .header-content .header-content-inner h5 {
 }
 #main-slider .carousel-caption .btn-primary {
   margin-top: 48px;
-  font-size: 14px;
+  font-size: 22px;
   padding: 10px 12px;
 }
 #main-slider .icon-prev, #main-slider .icon-next {
@@ -11434,7 +11434,12 @@ header.header-image .header-content .header-content-inner h5 {
   border-color: #a5e200;
   text-transform: uppercase;
   padding: 10px 12px;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
+  font-size: 22px;
+}
+
+.btn-primary:focus {
+  background-color: #a5e200;
 }
 
 .btn-primary:hover {
@@ -11480,7 +11485,8 @@ hr {
 }
 
 hr.divider-light-dark {
-  max-width: 79.2px;
+  max-width: 150px;
+  opacity: 0.5;
   border-color: #a5e200;
   border-width: 3px;
 }
@@ -11768,7 +11774,7 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   margin-bottom: 0;
 }
 .t108-one-page #counters-services .counters-box .divider-light-dark {
-  width: 48px;
+  width: 25px;
   margin-left: 0;
   margin-bottom: 20px;
 }

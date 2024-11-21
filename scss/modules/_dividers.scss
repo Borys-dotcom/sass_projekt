@@ -9,9 +9,12 @@ hr {
 }
 
 hr.divider-light-dark {
-    max-width: $baseline * 3.3;
+    max-width: $baseline * 6.25;
+    opacity: 0.5;
     border-color: $color-primary;
     border-width: 3px;
+
+    
 }
 
 hr.divider-light {

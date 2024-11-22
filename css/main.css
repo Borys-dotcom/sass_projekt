@@ -11357,7 +11357,7 @@ header.header-image .header-content .header-content-inner h5 {
   background-color: #222222;
 }
 .t108-footer .footer-above {
-  padding-top: 48px;
+  padding-top: 79.92px;
 }
 .t108-footer .footer-above .margin-none p {
   margin-bottom: 0;
@@ -11473,6 +11473,10 @@ header.header-image .header-content .header-content-inner h5 {
   color: #ffffff;
   background-color: #88ba00;
   border-color: #88ba00;
+}
+
+.btn-social {
+  font-size: 25px;
 }
 
 /***/

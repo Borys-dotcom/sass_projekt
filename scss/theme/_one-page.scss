@@ -20,10 +20,10 @@
 
             .icon-about {
                 color: $color-text-primary;
-                width: $base-font-size * 4.5;
-                height: $base-font-size * 4.5;
+                width: $base-font-size * 6;
+                height: $base-font-size * 6;
                 border-radius: 100%;
-                line-height: $base-font-size * 4.5;
+                line-height: $base-font-size * 6;
                 background-color: $color-primary;
                 margin: $margin-none auto $baseline;
             }
@@ -137,14 +137,14 @@
                 height:100%;
                 opacity: 0;
                 background: $color-portfolio-hover;
-                -webkit-transition: all .35s;
-                -moz-transition: all .35s;
-                transition: all .35s;
+                -webkit-transition: all 1s;
+                -moz-transition: all 1s;
+                transition: all 1s;
 
                 .portfolio-box-caption-content {
                     position: absolute;
                     top: $position-top-text-portfolio;
-                    width: 100%;
+                    width: 100%;   
                     transform: translateY(-50%);
 
                     .project-category h4 {
@@ -177,6 +177,12 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
+            transition: 0.5s linear;
+            
+            &:hover {
+                transform: rotate(-45deg);
+            }
+
         }
 
 

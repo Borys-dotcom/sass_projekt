@@ -11639,10 +11639,10 @@ form fieldset input[name=comment], form fieldset input[name=message] {
 }
 .t108-one-page #about .about-box .icon-about {
   color: #ffffff;
-  width: 72px;
-  height: 72px;
+  width: 96px;
+  height: 96px;
   border-radius: 100%;
-  line-height: 72px;
+  line-height: 96px;
   background-color: #a5e200;
   margin: 0 auto 24px;
 }
@@ -11734,9 +11734,9 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   height: 100%;
   opacity: 0;
   background: rgba(34, 34, 34, 0.8);
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
 }
 .t108-one-page #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
@@ -11766,6 +11766,10 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   border-radius: 100%;
   line-height: 72px;
   border: 2px solid #a5e200;
+  transition: 0.5s linear;
+}
+.t108-one-page #counters-services .icon-services:hover {
+  transform: rotate(-45deg);
 }
 .t108-one-page #counters-services .counters-box {
   margin: 0 auto 72px;
